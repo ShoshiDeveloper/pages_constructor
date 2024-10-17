@@ -1,0 +1,14 @@
+{
+    "type":"default_action_component",
+    "label": "Состояние",
+    "mqttKey": "state",
+    "states": {
+        "state_true": "ON",//state : mqtt_value
+        "state_false": "OFF"
+    },
+    "accent": false,
+    //optional
+    "vision_condition": {
+        "mqttKey": "mqttValue" 
+    }
+}

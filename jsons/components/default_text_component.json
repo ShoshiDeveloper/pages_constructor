@@ -1,0 +1,12 @@
+{
+    "type":"default_action_component",
+    "label": "Температура",
+    "mqttKey": "temperature",
+    //optional
+    "suffix": "C",
+    "accent": false,
+    //optional
+    "vision_condition": {
+        "mqttKey": "mqttValue" 
+    }
+}

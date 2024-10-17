@@ -1,0 +1,8 @@
+{
+    "type":"temperature_component",
+    "buttons": {
+        "plus": 1,
+        "minus": -1
+    },
+    "mqttKey": "temperature"
+}

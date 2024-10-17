@@ -1,0 +1,36 @@
+//brandColor, defaultOffColor - цвета, которые базовые
+{
+    "type":"icon_component",
+    "background_state_colors": {
+        "default": "brandColor",
+        "OFF": "defaultOffColor"
+    }
+}
+
+
+// smoke sensor
+{
+    "type":"icon_component",
+    "background_state_colors": {
+        "default": "brandColor",
+        "true": "defaultErrorColor"
+    }
+}
+
+// water_leak sensor
+{
+    "type":"icon_component",
+    "background_state_colors": {
+        "default": "brandColor",
+        "true": "defaultWarningColor"
+    }
+}
+
+// water_leak sensor with not default color
+{
+    "type":"icon_component",
+    "background_state_colors": {
+        "default": "brandColor",
+        "true": "rgb(25,25,25)"
+    }
+}

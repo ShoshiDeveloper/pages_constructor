@@ -1,0 +1,21 @@
+{
+    "page": [
+        {
+            "type": "default_text_component",
+            "label": "Температура",
+            "mqttKey": "temperature",
+            "suffix": "C",
+            "accent": true
+        },
+        {
+            "type":"default_text_component",
+            "label": "Влажность",
+            "mqttKey": "humidity",
+            "suffix": "%",
+            "accent": false
+        },
+        {
+            "type":"linkquality_component"
+        }
+    ]
+}

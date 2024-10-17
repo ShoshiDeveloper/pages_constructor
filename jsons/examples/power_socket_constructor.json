@@ -1,0 +1,38 @@
+{
+    "page": [
+        {
+            "type": "default_action_component",
+            "label": "Состояние",
+            "mqttKey": "state",
+            "states": {
+                "state_true": "ON",
+                "state_false": "OFF"
+            },
+            "accent": true
+        },
+        {
+            "type":"default_text_component",
+            "label": "Напряжение",
+            "mqttKey": "voltage",
+            "suffix": "В",
+            "accent": false
+        },
+        {
+            "type":"default_text_component",
+            "label": "Ток",
+            "mqttKey": "current",
+            "suffix": "А",
+            "accent": false
+        },
+        {
+            "type":"default_text_component",
+            "label": "Мощность",
+            "mqttKey": "power",
+            "suffix": "Вт",
+            "accent": false
+        },
+        {
+            "type":"linkquality_component"
+        }
+    ]
+}

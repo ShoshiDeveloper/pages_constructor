@@ -1,0 +1,33 @@
+{
+    "page": [
+        {
+            "type":"temperature_component",
+            "buttons": {
+                "plus": 1,
+                "minus": -1
+            },
+            "mqttKey": "temperature"
+        },
+        {
+            "type":"default_action_component",
+            "label": "Состояние",
+            "mqttKey": "releread",
+            "states": {
+                "state_true": "true",
+                "state_false": "false"
+            },
+            "accent": false
+        },
+        {
+            "type":"default_text_component",
+            "label": "Температура",
+            "mqttKey": "temperature",
+            "suffix": "C",
+            "accent": false,
+            "vision_condition": {
+                "releread": "true",
+                "workmode": "auto" 
+            }
+        }
+    ]
+}
