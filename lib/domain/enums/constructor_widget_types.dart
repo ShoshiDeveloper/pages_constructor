@@ -5,4 +5,7 @@ enum ConstructorWidgetTypes {
   linkqualityWidget,
   temperatureWidget,
   styledContainerWidget,
+
+  buttonsRowWidget,
+
 }
